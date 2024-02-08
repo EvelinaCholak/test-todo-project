@@ -1,0 +1,19 @@
+@import "variables";
+
+.todo__btn {
+  @extend %btn;
+}
+.todo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: $bg;
+}
+.todo__title {
+  color: $title;
+  font-size: 25px;
+  cursor: pointer;
+}
